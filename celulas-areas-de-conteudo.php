@@ -4,7 +4,7 @@ Plugin Name: Células - Áreas de Conteúdo
 Plugin URI: https://github.com/mvocamargo/celulas-area-de-conteudo
 Description: Criação das áreas de conteúdo para o site das células da Comunidade Católica Colo de Deus
 Author: Marcus Camargo 
-Version: 1.0.1
+Version: 1.0.2
 Author URI: https://marcuscamargo.com.br/
 Text Domain: celulas-areas-de-conteudo
 License: GPL-2.0+
@@ -49,13 +49,13 @@ class Areas_Conteudo{
             "labels" => $labels,
             "description" => "",
             "public" => true,
-            "publicly_queryable" => false,
+            "publicly_queryable" => true,
             "show_ui" => true,
             "delete_with_user" => false,
             "show_in_rest" => true,
             "rest_base" => "",
             "rest_controller_class" => "WP_REST_Posts_Controller",
-            "has_archive" => false,
+            "has_archive" => true,
             "show_in_menu" => true,
             "show_in_nav_menus" => true,
             "exclude_from_search" => false,
@@ -90,7 +90,7 @@ class Areas_Conteudo{
             "show_in_rest" => true,
             "rest_base" => "",
             "rest_controller_class" => "WP_REST_Posts_Controller",
-            "has_archive" => false,
+            "has_archive" => true,
             "show_in_menu" => true,
             "show_in_nav_menus" => true,
             "exclude_from_search" => false,
