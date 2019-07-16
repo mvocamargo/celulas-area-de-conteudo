@@ -4,7 +4,11 @@ Plugin Name: Células - Áreas de Conteúdo
 Plugin URI: https://github.com/mvocamargo/celulas-area-de-conteudo
 Description: Criação das áreas de conteúdo para o site das células da Comunidade Católica Colo de Deus
 Author: Marcus Camargo 
+<<<<<<< HEAD
 Version: 1.2.0
+=======
+Version: 1.0.2
+>>>>>>> 62bd9c8abae22fc2bb6985ead8e1d553ad1bca61
 Author URI: https://marcuscamargo.com.br/
 Text Domain: celulas-areas-de-conteudo
 License: GPL-2.0+
